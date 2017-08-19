@@ -16,13 +16,11 @@ namespace VPSManagment.Controllers
         {
             SshCommand result;
 
+            var connectionInfo = new ConnectionInfo("92.222.83.59",
+                                        "root",
+                                        new PasswordAuthenticationMethod("root", "VFBi2DCy"));
 
-            var connectionInfo = new ConnectionInfo("sftp.foo.com",
-                                        "guest",
-                                        new PasswordAuthenticationMethod("guest", "pwd"),
-                                        new PrivateKeyAuthenticationMethod("rsa.key"));
-
-            using(var ssh = new SshClient("92.222.83.59","root", "VFBi2DCy"))
+            using(var ssh = new SshClient(connectionInfo))
             {
                 ssh.Connect();
                 result = ssh.RunCommand("echo hello world");
