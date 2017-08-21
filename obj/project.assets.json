@@ -9844,16 +9844,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\micha_000\\Desktop\\VPSManagment\\VPSManagment.csproj",
+      "projectUniqueName": "C:\\Users\\micha_000\\Desktop\\VPSManagment\\VPSManagment.csproj",
       "projectName": "VPSManagment",
-      "projectPath": "c:\\Users\\micha_000\\Desktop\\VPSManagment\\VPSManagment.csproj",
-      "outputPath": "c:\\Users\\micha_000\\Desktop\\VPSManagment\\obj\\",
+      "projectPath": "C:\\Users\\micha_000\\Desktop\\VPSManagment\\VPSManagment.csproj",
+      "outputPath": "C:\\Users\\micha_000\\Desktop\\VPSManagment\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/VPSManagment.dll": "c:\\Users\\micha_000\\Desktop\\VPSManagment\\bin\\placeholder\\netcoreapp1.1\\VPSManagment.dll"
+        "lib/netcoreapp1.1/VPSManagment.dll": "C:\\Users\\micha_000\\Desktop\\VPSManagment\\bin\\placeholder\\netcoreapp1.1\\VPSManagment.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
