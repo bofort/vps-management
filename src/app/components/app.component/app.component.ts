@@ -3,13 +3,13 @@ import { Http, Headers } from '@angular/http'
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch'; 
 import { Observable } from "rxjs/Observable";
-import { Command } from "./Models/Command";
-import { CommandService } from "./Services/CommandService";
+import { Command } from "../../models/Command";
+import { CommandService } from "../../services/CommandService";
 
 @Component({
    selector: 'app-root',
-   templateUrl: './app.component.html',
-   styleUrls: ['./app.component.css'],
+   templateUrl: './view/app.component.html',
+   styleUrls: ['./view/app.component.css'],
    providers: [CommandService]
 })
 export class AppComponent implements OnInit {
